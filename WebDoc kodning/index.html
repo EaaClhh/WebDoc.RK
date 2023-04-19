@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
     <meta charset="UTF-8">
@@ -20,9 +20,9 @@
     </div>
 
     <!--Afsnittet om "intro omkring butikken i Åbyhøj" & tilmeldingsvideoen-->
-    <video src="mp4/INTRO TIL HJEMMESIDE - uden lyd.mp4" type="video/mp4" controls id="vid"></video>
+    <video src="mp4/intro.mp4" controls id="vid"></video>
     <h2 class="nemt">Så nemt er det at tilmelde sig, som frivillig!</h2>
-    <video src="mp4/tilmelding .mp4" type="video/mp4" controls id="tilmelding"></video>
+    <video src="mp4/tilmelding.mp4" controls id="tilmelding"></video>
     <p class="bliv">
         <div class="btn">
             <button class="blob-btn">
@@ -36,9 +36,6 @@
                     </span>
                 </span>
             </button>
-           
-            <br />
-    
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
                 <defs>
                     <filter id="goo">
@@ -63,8 +60,8 @@
     </div>
 
     <img src="img/group.png" class="gruppe" alt="frivillig icon">
-    <img src="img/storefront.png" class="butik" alt="">
-    <img src="img/handshake.png" alt="håndtryk">
+    <img src="img/storefront.png" class="butik" alt="butik icon">
+    <img src="img/handshake.png" alt="håndtryk icon">
 
 
 
@@ -73,7 +70,7 @@
 
     <div class="afsnit">
         <div class="wrapper">
-            <img src="img/ældre dame.jpg" class="dame" alt="ældre dame, som er frivillig i røde kors">
+            <img src="img/ældredame.jpg" class="dame" alt="ældre dame, som er frivillig i røde kors">
             <div class="T-B">
                 <h5 class="Frida">Frivillig butiksmedarbejder, Frida</h5>
                 <p class="p-a">Frida er frivillig i butikken, og arbejdet i butikken i 16 år.
@@ -81,52 +78,49 @@
                     at være en del af og for hende er det et meget givende
                     job, fordi hun både får snakket med de søde kunder,
                     som kommer ind i butikken i Åbyhøj & sine søde
-                    kollegaer</p>
-                    <div class="buttons">
-                        <button class="blob-btn">
-                            Se videoen
-                            <span class="blob-btn__inner">
-                                <span class="blob-btn__blobs">
-                                    <span class="blob-btn__blob"></span>
-                                    <span class="blob-btn__blob"></span>
-                                    <span class="blob-btn__blob"></span>
-                                    <span class="blob-btn__blob"></span>
-                                </span>
+                    kollegaer </p>
+                <div class="buttons">
+                    <button class="blob-btn">
+                        Se videoen
+                        <span class="blob-btn__inner">
+                            <span class="blob-btn__blobs">
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
                             </span>
-                        </button>
-                        <br />
-                
-                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-                            <defs>
-                                <filter id="goo">
-                                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
-                                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
-                                        result="goo"></feColorMatrix>
-                                    <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
-                                </filter>
-                            </defs>
-                        </svg>
-                    </div>
+                        </span>
+                    </button>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                            <filter id="goo">
+                                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                                <feColorMatrix in="blur" mode="matrix"
+                                    values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                            </filter>
+                        </defs>
+                    </svg>
+                </div>
             </div>
         </div>
 
         <!--CREDIT TO FOR THE BUTTON (CTA knap): https://dev.to/webdeasy/top-20-css-buttons-animations-f41 -->
 
- 
+
 
     </div>
 
-   
 
 
 
-   
     <!--Afsnittet om nyheder, kurser og aktiviteter - CREDIT TO: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_text_blocks  -->
 
     <h2 class="KUA">Kurser og aktiviteter </h2>
 
     <div class="card" style="width: 20rem;">
-        <div class="img-wrapper"><img src="img/FH.jpg" class="aktiviteter" height="380">
+        <div class="img-wrapper"><img src="img/FH.jpg" alt="Førstehjælpskursus" class="aktiviteter">
             <div class="product-detail">
                 <h5 class="card-title heading text-center">Førstehjælpskursus</h5>
                 <p class="p-c">Hvert år kommer tusindvis af danskere til skade i hjemmet og trafikken. Lærer du
@@ -135,7 +129,7 @@
                 <button type="button" class="btn btn-outline-dark">Læs mere</button>
             </div>
         </div>
-        <div class="img-wrapper"><img src="img/indsamling.jpg" class="aktiviteter" height="380">
+        <div class="img-wrapper"><img src="img/indsamling.jpg" alt="Røde Kors indsamling" class="aktiviteter">
             <div class="product-detail">
                 <h5 class="card-title heading text-center">Indsamling</h5>
                 <p class="p-c">Røde Kors-indsamlingen er Danmarks største humanitære husstandsindsamling, og den
