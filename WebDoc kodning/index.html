@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Røde Kors WebDoc</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="jss/script.js" defer></script>
+</head>
+
+<body>
+    <div class="LT">
+        <img src="img/logo.png" alt="røde kors logo" class="logo">
+        <h1 class="røde">Røde</h1>
+        <h1 class="kors">Kors</h1>
+    </div>
+
+    <!--Afsnittet om "intro omkring butikken i Åbyhøj" & tilmeldingsvideoen-->
+    <video src="mp4/INTRO TIL HJEMMESIDE - uden lyd.mp4" type="video/mp4" controls id="vid"></video>
+    <h2 class="nemt">Så nemt er det at tilmelde sig, som frivillig!</h2>
+    <video src="mp4/tilmelding .mp4" controls id="tilmelding"></video>
+    <p class="bliv">
+        <div class="btn">
+            <button class="blob-btn">
+                Se videoen
+                <span class="blob-btn__inner">
+                    <span class="blob-btn__blobs">
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                    </span>
+                </span>
+            </button>
+           
+            <br />
+    
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+                            result="goo"></feColorMatrix>
+                        <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+    </p>
+
+    <!--Afsnittet om "hvor mange frivillig der er, butikker & aktiviteter"-->
+
+    <img src="img/logo.png" class="logo" alt="Røde Kors logo engang til">
+
+    <div class="RKAa">
+        <p class="R">Røde</p>
+        <p class="K">Kors</p>
+        <p class="Aarhus">Aarhus</p>
+    </div>
+
+    <img src="img/group.png" class="gruppe" alt="frivillig icon">
+    <img src="img/storefront.png" class="butik" alt="">
+    <img src="img/handshake.png" alt="håndtryk">
+
+
+
+
+    <!---Frida afsnittet her, hvor hun fortæller om hvordan det er at være frivillig-->
+
+    <div class="afsnit">
+        <div class="wrapper">
+            <img src="img/ældre dame.jpg" class="dame" alt="ældre dame, som er frivillig i røde kors">
+            <div class="T-B">
+                <h5 class="Frida">Frivillig butiksmedarbejder, Frida</h5>
+                <p class="p-a">Frida er frivillig i butikken, og arbejdet i butikken i 16 år.
+                    Hun blev frivillig, da hun bor alene & manglede et fælleskab
+                    at være en del af og for hende er det et meget givende
+                    job, fordi hun både får snakket med de søde kunder,
+                    som kommer ind i butikken i Åbyhøj & sine søde
+                    kollegaer</p>
+                    <div class="buttons">
+                        <button class="blob-btn">
+                            Se videoen
+                            <span class="blob-btn__inner">
+                                <span class="blob-btn__blobs">
+                                    <span class="blob-btn__blob"></span>
+                                    <span class="blob-btn__blob"></span>
+                                    <span class="blob-btn__blob"></span>
+                                    <span class="blob-btn__blob"></span>
+                                </span>
+                            </span>
+                        </button>
+                        <br />
+                
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <defs>
+                                <filter id="goo">
+                                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+                                        result="goo"></feColorMatrix>
+                                    <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                                </filter>
+                            </defs>
+                        </svg>
+                    </div>
+            </div>
+        </div>
+
+        <!--CREDIT TO FOR THE BUTTON (CTA knap): https://dev.to/webdeasy/top-20-css-buttons-animations-f41 -->
+
+ 
+
+    </div>
+
+   
+
+
+
+   
+    <!--Afsnittet om nyheder, kurser og aktiviteter - CREDIT TO: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_text_blocks  -->
+
+    <h2 class="KUA">Kurser og aktiviteter </h2>
+
+    <div class="card" style="width: 20rem;">
+        <div class="img-wrapper"><img src="img/førstehjælp.jpg" class="aktiviteter" height="380">
+            <div class="product-detail">
+                <h5 class="card-title heading text-center">Førstehjælpskursus</h5>
+                <p class="p-c">Hvert år kommer tusindvis af danskere til skade i hjemmet og trafikken. Lærer du
+                    førstehjælp, kan du
+                    hjælpe når en nødsituation opstår.</p>
+                <button type="button" class="btn btn-outline-dark">Læs mere</button>
+            </div>
+        </div>
+        <div class="img-wrapper"><img src="img/indsamling.jpg" class="aktiviteter" height="380">
+            <div class="product-detail">
+                <h5 class="card-title heading text-center">Indsamling</h5>
+                <p class="p-c">Røde Kors-indsamlingen er Danmarks største humanitære husstandsindsamling, og den
+                    bliver
+                    organiseret
+                    af
+                    frivillige i alle 204 lokale Røde Kors-afdelinger landet over. </p>
+                <button type="button" class="btn btn-outline-dark">Læs mere</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!---Afsnittet "om Røde Kors" -->
+
+    <h2 class="RK">Om Røde Kors</h2>
+
+    <p class="frivillig">Omkring 13 millioner frivillige i 192 lande udgør kernen i Røde Kors. Alene i Danmark er vi
+        næsten 35.000 frivillige.
+        <br>
+        Røde Kors har gennem sin 150 år gamle historie bygget på den samme idé. Vi hjælper mennesker i nød uden at
+        skele
+        til nationalitet, etnicitet eller religion.
+        <br>
+        Vi er en neutral organisation, der er uafhængig af partipolitik. Men
+        vi har holdninger og taler de sårbares sag.
+        <br>
+        Som medlem er du en vigtig del af verdens største hjælpeorganisation. Du er med til at sende hjælp til
+        verdens
+        brændpunkter, og du er med til at holde hånden under de mest udsatte i det danske samfund. Derfor har vi
+        brug
+        for dig i dag som medlem.
+
+</body>
+
+</html>
